@@ -1,23 +1,14 @@
-# TP3 — LOG3000 : Calculatrice Web avec Flask
+# TP3 - LOG3000 : Calculatrice Web avec Flask
 
-## 🎯 Objectif du projet
+## Objectif du projet
 Ce projet vise à développer une **application web de calculatrice** en utilisant le framework **Flask (Python)**.  
-L’application permet d’effectuer des opérations arithmétiques de base : addition, soustraction, multiplication et division.  
+L’application permet d’effectuer l'ensemble des opérations arithmétiques de base : addition, soustraction, multiplication et division.  
 Ce travail s’inscrit dans le cadre du **TP3 du cours LOG3000**.
 
 ---
 
-## 👥 Équipe
-- **Nom de l’équipe :** 16  
-- **Membres :**  
-  - Mahdi Gargouri 
-  - Charles Jobin 
-  - Yanis Kadri   
-
----
-
-## ⚙️ Prérequis
-Avant d’exécuter le projet, assurez-vous d’avoir installé :
+## Prérequis
+Avant d’exécuter le projet, assurez-vous d’avoir installé  :
 - **Python 3.10+**
 - **pip**
 - **Git**
@@ -25,31 +16,30 @@ Avant d’exécuter le projet, assurez-vous d’avoir installé :
 
 ---
 
-## 🧩 Installation et exécution
+## Installation 
 
-### 1️⃣ Cloner le dépôt
+### 1. Cloner le dépôt
 ```bash
 git clone https://github.com/Mahdi01X/TP3---LOG3000.git
-cd TP3---LOG3000
 ```
 
-### 2️⃣ Installer les dépendances
+### 2. Installer les dépendances
+Ouvrez votre terminal à la racine du dossier `TP3---LOG3000` puis lancez la commande 
 ```bash
 pip install flask
 ```
 
-### 3️⃣ Lancer le serveur Flask
+### 3. Lancer le serveur Flask
 ```bash
 python app.py
 ```
 
-### 4️⃣ Accéder à l’application
-Ouvrez votre navigateur et allez à :  
-👉 [http://127.0.0.1:5000](http://127.0.0.1:5000)
+### 4. Accéder à l’application
+Une fois le serveur en marche, vous pouvez accéder à l'application en vous rendant à l'adresse suivante dans votre navigateur : [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
 
-## 🧱 Structure du projet
+## Structure du projet
 ```
 TP3---LOG3000/
 │
@@ -59,15 +49,15 @@ TP3---LOG3000/
 │   └── style.css          # Feuilles de style CSS
 ├── templates/
 │   └── index.html         # Interface utilisateur
-├── tests/                 # Dossier des tests unitaires (à venir)
-├── requirements.txt       # Dépendances Python
-└── README.md              # Documentation du projet
+├── tests/                 # Tests unitaires 
+├── requirements.txt       # Dépendances Python à installer
+└── README.md              # Documentation générale du projet
 ```
 
 ---
 
-## 🧠 Documentation du code
-Chaque fonction et classe du projet inclut un **docstring clair** :
+## Documentation du code
+Chaque fonction et classe du projet inclut un **docstring** incluant les informations suivantes:
 - **Rôle**
 - **Paramètres d’entrée**
 - **Valeur de retour**
@@ -75,26 +65,38 @@ Chaque fonction et classe du projet inclut un **docstring clair** :
 Chaque répertoire contient aussi un fichier `README.md` local expliquant :
 - Le but du module
 - Les fichiers qu’il contient
-- Les dépendances éventuelles
+- Les dépendances éventuelles qu'il requiert
 
 ---
 
-## 🧪 Tests
-Les tests unitaires se trouvent dans le dossier `tests/` et sont exécutés avec :
+## Tests
+Les tests unitaires se trouvent dans le dossier `tests/` et peuvent être exécutés avec :
 ```bash
 pytest
 ```
-Chaque test échoué doit être documenté dans une **Issue GitHub**, avec étapes de reproduction et responsable assigné.
+Chaque échec d'un test doit être documenté dans une **Issue GitHub**, qui inclut la procédure pour reproduire l'échec ainsi que l'assignation d'un responsable à la résolution du défaut. 
 
 ---
 
-## 🔄 Flux de contribution
+## Flot de contribution
 1. **main** → version stable du projet  
 2. **dev** → développement en cours  
-3. **feature/*** → nouvelles fonctionnalités ou corrections  
+3. **feature/*** → nouvelles fonctionnalités 
+3. **bugfix/*** → corrections de défauts  
 
 **Procédure :**
 - Créer une branche à partir de `dev`
-- Commit avec message clair
+- Effectuer des commits avec des messages explicites
 - Ouvrir une Pull Request
 - Fusionner après revue et validation
+
+---
+
+## Équipe
+- **Nom de l’équipe :** 16  
+- **Membres :**  
+  - Mahdi Gargouri 
+  - Charles Jobin 
+  - Yanis Kadri   
+
+---
