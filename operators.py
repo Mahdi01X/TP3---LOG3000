@@ -37,9 +37,9 @@ def multiply(a, b):
         b (n'importe quel type): Deuxième nombre.
 
     Returns:
-        le résultat : Résultat de la multiplication a ** b.
+        le résultat : Résultat de la multiplication a * b.
     """
-    return a ** b
+    return a * b
 
 
 def divide(a, b):
