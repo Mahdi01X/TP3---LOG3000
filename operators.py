@@ -24,7 +24,7 @@ def subtract(a, b):
         b (n'importe quel type): Deuxième nombre.
 
     Returns:
-        float: Résultat de la soustraction b - a.
+        float: Résultat de la soustraction a - b.
     """
     return a - b
 
