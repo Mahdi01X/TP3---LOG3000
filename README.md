@@ -26,7 +26,7 @@ git clone https://github.com/Mahdi01X/TP3---LOG3000.git
 ### 2. Installer les dépendances
 Ouvrez votre terminal à la racine du dossier `TP3---LOG3000` puis lancez la commande 
 ```bash
-pip install flask
+pip install -r requirements.txt
 ```
 
 ### 3. Lancer le serveur Flask
