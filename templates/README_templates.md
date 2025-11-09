@@ -1,10 +1,10 @@
 # Module Templates
 
-## 🎯 Raison d’être
+## Raison d’être
 Le dossier `templates/` contient les fichiers HTML utilisés par le serveur Flask pour générer les pages web de l’application.  
 Flask recherche automatiquement les modèles HTML dans ce dossier lorsqu’une route appelle la fonction `render_template()`.
 
-## 📁 Contenu
+## Contenu
 - **index.html** : page principale de la calculatrice.  
   Elle définit :
   - le champ d’affichage du résultat (`<input id="display">`) ;
@@ -16,7 +16,7 @@ Flask recherche automatiquement les modèles HTML dans ce dossier lorsqu’une r
   - la mise à jour du champ d’affichage lors de la saisie ;
   - la réinitialisation du champ (`clearDisplay()`).
 
-## 🔗 Dépendances
+## Dépendances
 - Appelé depuis `app.py` via la fonction :
   ```python
   render_template('index.html', result=result)
@@ -26,6 +26,6 @@ Flask recherche automatiquement les modèles HTML dans ce dossier lorsqu’une r
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   ```
 
-## 🧭 Navigation
+## Navigation
 - Le fichier `index.html` est la seule vue utilisée par l’application.
 - Lorsqu’un utilisateur accède à la route `/`, Flask rend ce modèle et insère dynamiquement la variable `result`.
